@@ -2,17 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>25126e75-4530-4240-a5d9-69a346c54fac</ProjectGuid>
+    <ProjectGuid>8d8c0822-8676-4884-b05c-0bb5c2bd247d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ITMO.Python.p2.py</StartupFile>
+    <StartupFile>ITMO.Python.p3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>ITMO.Python.p2</Name>
-    <RootNamespace>ITMO.Python.p2</RootNamespace>
-    <IsWindowsApplication>False</IsWindowsApplication>
-    <InterpreterId>Global|PythonCore|3.10</InterpreterId>
+    <Name>ITMO.Python.p3</Name>
+    <RootNamespace>ITMO.Python.p3</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,10 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ITMO.Python.p2.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <InterpreterReference Include="Global|PythonCore|3.10" />
+    <Compile Include="ITMO.Python.p3.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
